@@ -14,6 +14,11 @@ def download_urls(file_path, userName):
         for url in urls:
             url = url.strip()  # 移除换行符
 
+            # 检查URL是否以'.jpg'结束
+            if not url.endswith('.jpg'):
+                print('Not a jpg image, skipping...')
+                continue
+
             response = requests.get(url)
 
             if response.status_code == 200:
