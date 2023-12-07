@@ -2,6 +2,10 @@
 
 使用 requests.Session 实现
 
-Python版本为3.9，需安装 requests, ddddocr
+Python 版本为 3.9，使用如下命令安装依赖：
+
+```
+pip install -r requirements.txt
+```
 
 请勿用于违规用途！！！
