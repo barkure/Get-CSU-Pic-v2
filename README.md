@@ -4,7 +4,7 @@
 
 Python 版本为 3.9，使用如下命令安装依赖：
 
-```
+```python
 pip install -r requirements.txt
 ```
 
