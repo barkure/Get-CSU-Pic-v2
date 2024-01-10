@@ -5,7 +5,7 @@ from download_urls import download_urls
 from datetime import datetime
 
 
-number = 12345678910 # 此处填写学号
+number = 1234567890 # 此处填写学号
 number_str = str(number)
 password = "Csu@{}".format(number_str[-6:]) # 默认密码为 Csu@学号后六位
 
